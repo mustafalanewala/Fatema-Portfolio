@@ -1,73 +1,109 @@
-# Welcome to your Lovable project
+# 🚀 Fatema Portfolio Setup & Contribution Guide
 
-## Project info
+Welcome! This document will help you get started working. Please follow the instructions step by step to clone, modify, and push code back to the repository.
 
-**URL**: https://lovable.dev/projects/ec073bfd-24cb-47a6-abba-5524b94d9aef
+---
 
-## How can I edit this code?
+## ✅ Prerequisites
 
-There are several ways of editing your application.
+Before starting, make sure these tools are installed:
 
-**Use Lovable**
+- **Git** – to clone and push code
+- **Visual Studio Code (VS Code)** – to write and run code
+- **Node.js** – to run the project
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ec073bfd-24cb-47a6-abba-5524b94d9aef) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧪 Step 1: Check if Git is Installed
 
-**Use your preferred IDE**
+1. Open your **terminal** or **command prompt**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+2. Type the following command:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+   ```bash
+   git --version
+   ```
 
-Follow these steps:
+3. If Git is installed, you'll see something like:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+   ```
+   git version 2.41.0
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+4. If you see an error like `git is not recognized`, download and install Git.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🔗 Step 2: Clone the Repository
 
-**Edit a file directly in GitHub**
+1. Visit the GitHub repo:
+   👉 [https://github.com/mustafalanewala/Fatema-Portfolio.git](https://github.com/mustafalanewala/Fatema-Portfolio.git)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+2. Open **VS Code** and launch the terminal (`Ctrl + ~`)
 
-**Use GitHub Codespaces**
+3. Run:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+   ```bash
+   git clone https://github.com/mustafalanewala/Fatema-Portfolio.git
+   ```
 
-## What technologies are used for this project?
+4. Navigate into the folder:
 
-This project is built with:
+   ```bash
+   cd Fatema-Portfolio
+   ```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🛠️ Step 3: Set Up and Run the Project
 
-Simply open [Lovable](https://lovable.dev/projects/ec073bfd-24cb-47a6-abba-5524b94d9aef) and click on Share -> Publish.
+1. Install project dependencies:
 
-## Can I connect a custom domain to my Lovable project?
+   ```bash
+   npm install
+   ```
 
-Yes, you can!
+2. Start the development server:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+   ```bash
+   npm run dev
+   ```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+3. Visit the app in your browser:
+   [http://localhost:3000](http://localhost:3000)
+
+---
+
+## ✏️ Step 4: Make Changes
+
+Open files in VS Code and make any required changes like modifying the code or updating the content.
+
+---
+
+## 💾 Step 5: Commit and Push Changes
+
+1. Check changes:
+
+   ```bash
+   git status
+   ```
+
+2. Stage changes:
+
+   ```bash
+   git add .
+   ```
+
+3. Commit:
+
+   ```bash
+   git commit -m "Your commit message"
+   ```
+
+4. Push:
+
+   ```bash
+   git push -u origin main
+   ```
+
+---
